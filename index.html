@@ -5,17 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cornerstone Real Estate</title>
+    <style>
+      .coming-soon {
+        text-align: center;
+        color: maroon;
+      }
+      .coming-soon img {
+        max-width: 100%;
+        max-height: 350px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      .coming-soon p {
+        font-size: 17pt;
+      }
+      .coming-soon p.footer {
+        font-size: 15pt;
+      }
+    </style>
   </head>
   <body>
     <div class="site-wrapper">
-      <center style="color: maroon">
-        <p style="font-size:17pt"> Welcome To Cornerstone Real Estate</p>
-        <p style="font-size:17pt"> Our Site Is Currently Under Renovation</p>
-        <p style="font-size:17pt"> Please Pardon Our Appearence</p>
-        <img style="max-width: 100%; max-height: 350px; ; margin-top: 100px; margin-bottom: 100px" src="logo.png"></img>
-        <p style="font-size:15pt"> 1451 Tremont St, Boston, MA, 02120 </p>
-        <p style="font-size:15pt"> Phone: 617-238-7400    Fax: 617-608-9044</p>
-      </center>
+      <div class="coming-soon">
+        <p> Welcome To Cornerstone Real Estate</p>
+        <p> Our Site Is Currently Under Renovation</p>
+        <p> Please Pardon Our Appearence</p>
+        <img class="logo" src="logo.png"></img>
+        <p class="footer"> 1451 Tremont St, Boston, MA, 02120 </p>
+        <p class="footer"> Phone: 617-238-7400    Fax: 617-608-9044</p>
+      </div>
     </div>
   </body>
 </html>
